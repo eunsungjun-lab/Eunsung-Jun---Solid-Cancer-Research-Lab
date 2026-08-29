@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eunsung Jeon | Solid Cancer Research</title>
+<style>
+:root{--ink:#17212b;--muted:#687581;--line:#e6eaee;--accent:#176b87;--bg:#f7f9fa;--white:#fff}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,"Noto Sans KR",sans-serif;color:var(--ink);line-height:1.7;background:var(--white)}
+a{color:inherit;text-decoration:none}.container{max-width:1120px;margin:auto;padding:0 28px}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--accent)}
+.links{display:flex;gap:26px;font-size:14px;color:#47545e}
+.hero{padding:160px 0 105px;background:linear-gradient(135deg,#f3f8fa 0%,#fff 62%)}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;color:var(--accent);font-size:13px;font-weight:700}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.05;margin:18px 0 22px;letter-spacing:-2px}
+.hero p{max-width:700px;color:var(--muted);font-size:20px}
+.btn{display:inline-block;margin-top:22px;padding:12px 20px;border-radius:7px;background:var(--accent);color:white;font-weight:700}
+section{padding:88px 0} section.alt{background:var(--bg)}
+h2{font-size:34px;margin:0 0 34px;letter-spacing:-1px}.intro{max-width:760px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid var(--line);border-radius:12px;padding:28px;background:#fff}
+.card h3{margin:0 0 10px;font-size:20px}.card p{color:var(--muted);margin:0}
+.pub{padding:18px 0;border-bottom:1px solid var(--line)}.pub b{display:block}.pub span{font-size:14px;color:var(--muted)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:60px}.contactbox{background:#fff;border:1px solid var(--line);padding:28px;border-radius:12px}
+footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+@media(max-width:760px){.links{display:none}.hero{padding-top:125px}.grid,.contact{grid-template-columns:1fr}section{padding:65px 0}h2{font-size:29px}}
+</style>
+</head>
+<body>
+<nav><div class="container navin">
+<a class="logo" href="#home">EUNSUNG <span>JEON</span></a>
+<div class="links"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero" id="home"><div class="container">
+<div class="eyebrow">Solid Cancer Research</div>
+<h1>Understanding<br>and overcoming<br>solid cancers.</h1>
+<p>Research focused on pancreatic cancer, tumor microenvironment, cancer immunology, and patient-derived preclinical models to develop next-generation precision immunotherapy.</p>
+<a class="btn" href="#research">Explore Research →</a>
+</div></header>
+
+<section id="about"><div class="container">
+<div class="eyebrow">About</div><h2>Researcher Profile</h2>
+<p class="intro">Eunsung Jeon is a cancer researcher studying mechanisms that drive therapeutic resistance in difficult-to-treat solid tumors. His research integrates tumor biology, the tumor microenvironment, spatial biology, organoid models, and immunotherapy to identify actionable therapeutic targets.</p>
+</div></section>
+
+<section class="alt" id="research"><div class="container">
+<div class="eyebrow">Research</div><h2>Research Focus</h2>
+<div class="grid">
+<div class="card"><h3>Pancreatic Cancer</h3><p>Mechanisms of tumor progression, therapeutic resistance, and molecular heterogeneity in PDAC.</p></div>
+<div class="card"><h3>Tumor Microenvironment</h3><p>CAF, ECM, immune-cell infiltration, vascular components, and spatial interactions within the TME.</p></div>
+<div class="card"><h3>Precision Immunotherapy</h3><p>Development and preclinical evaluation of next-generation immunotherapeutic strategies for solid tumors.</p></div>
+<div class="card"><h3>Patient-Derived Models</h3><p>PDOs and humanized/preclinical models for patient-specific therapeutic response and mechanism studies.</p></div>
+<div class="card"><h3>Spatial Biology</h3><p>Spatial transcriptomics and multiplex imaging to resolve tumor–immune–stromal architecture.</p></div>
+<div class="card"><h3>KRAS Biology</h3><p>Functional and immune microenvironmental differences associated with KRAS mutation subtypes.</p></div>
+</div></div></section>
+
+<section id="projects"><div class="container">
+<div class="eyebrow">Selected Projects</div><h2>Current Research Themes</h2>
+<div class="grid">
+<div class="card"><h3>01 · PDAC Immune Landscape</h3><p>Defining spatial determinants of T-cell infiltration and immune exclusion in pancreatic cancer.</p></div>
+<div class="card"><h3>02 · KRAS Subtype</h3><p>Investigating how KRAS G12D and G12V shape tumor–immune interactions and therapeutic vulnerability.</p></div>
+<div class="card"><h3>03 · CAR-NK Therapy</h3><p>Engineering and validating next-generation CAR-NK approaches for refractory solid tumors.</p></div>
+</div></div></section>
+
+<section class="alt" id="publications"><div class="container">
+<div class="eyebrow">Publications</div><h2>Selected Publications</h2>
+<div class="pub"><b>Pancreatic cancer and tumor microenvironment</b><span>Selected publications — replace this section with your publication list and DOI links.</span></div>
+<div class="pub"><b>Precision immunotherapy for solid tumors</b><span>Selected publications — replace with journal, year, volume and DOI.</span></div>
+<div class="pub"><b>Patient-derived organoid and translational research</b><span>Selected publications — replace with your publication information.</span></div>
+</div></section>
+
+<section id="contact"><div class="container">
+<div class="eyebrow">Contact</div><h2>Let's collaborate.</h2>
+<div class="contact">
+<div><p class="intro">For research collaboration, academic inquiries, or scientific discussions, please contact me through my institutional email.</p></div>
+<div class="contactbox"><b>Eunsung Jeon</b><p>Solid Cancer Research<br>Institution / Department<br>Email: your-email@university.ac.kr</p><p>ORCID · Google Scholar · ResearchGate</p></div>
+</div></div></section>
+
+<footer><div class="container">© 2026 Eunsung Jeon · Solid Cancer Research</div></footer>
+</body></html>
